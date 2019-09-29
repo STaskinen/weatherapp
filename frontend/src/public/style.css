@@ -5,10 +5,18 @@ body{
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
+
 .icon {
+  min-width: 200px;
   width: 30vw;
   height: 30vw;
+}
+
+.weatherCard {
+  min-width: 200px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border: 5px solid black;
 }
